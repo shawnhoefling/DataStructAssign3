@@ -107,7 +107,7 @@ public class BinarySearchTree<AnyType extends Comparable<? super AnyType>>
             printTree( root );
     }
 
-    /**
+    /**.  
      * Internal method to insert into a subtree.
      * @param x the item to insert.
      * @param t the node that roots the subtree.
